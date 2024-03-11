@@ -8,12 +8,12 @@ Put in info in the .env
 Apply Migrations: Django uses migrations to propagate changes you make to your models (adding a field, deleting a model, etc.) into your database schema. Run the following command to apply the migrations:
 bash
 Copy code
-python manage.py migrate
+pipenv run python manage.py migrate
 
 Create a Superuser: To access the Django admin interface, you'll need to create a superuser account. Run the following command and follow the prompts to set up the superuser:
 bash
 Copy code
-python manage.py createsuperuser
+pipenv run python manage.py createsuperuser
 
 Run the Development Server: Start the Django development server to check if your project is running correctly. Run the following command:
 bash
